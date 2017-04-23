@@ -11,3 +11,4 @@ let g:jellybeans_overrides = {
 set number
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 execute pathogen#infect()
+let g:ackprg = 'ag --nogroup --nocolor --column'
