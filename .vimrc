@@ -9,3 +9,4 @@ let g:jellybeans_overrides = {
 \    'background': { 'ctermbg': 'none', '256ctermbg': 'none' },
 \} 
 set number
+set runtimepath^=~/.vim/bundle/ctrlp.vim
