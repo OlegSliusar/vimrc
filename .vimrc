@@ -12,3 +12,8 @@ set number
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 execute pathogen#infect()
 let g:ackprg = 'ag --nogroup --nocolor --column'
+
+" Make it obvious where 80 characters is
+set textwidth=80
+set colorcolumn=+1
+
