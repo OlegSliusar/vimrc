@@ -8,7 +8,10 @@ set expandtab
 let g:jellybeans_overrides = {
 \    'background': { 'ctermbg': 'none', '256ctermbg': 'none' },
 \} 
+
 set number
+set relativenumber             " Show relative line numbers
+
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 execute pathogen#infect()
 let g:ackprg = 'ag --nogroup --nocolor --column'
